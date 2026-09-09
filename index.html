@@ -333,6 +333,35 @@
   @media (prefers-reduced-motion: reduce){
     *{animation-duration:0.001ms !important; transition-duration:0.001ms !important;}
   }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+.brand-logo {
+    width: 50px;
+    height: auto;
+    display: block;
+}
+
+/* =========================================
+   FOOTER SDG IMAGE
+   ========================================= */
+
+.footer-sdg-image {
+  width: 100%;
+  margin-top: 30px;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.footer-sdg-image img {
+  display: block;
+  width: 100%;
+  height: 100px;
+  max-width: none;
+  margin: 0;
+}
 </style>
 </head>
 <body>
@@ -343,7 +372,7 @@
     <img src="./assets/logo.jpeg" 
          alt="CAK Enterprise" 
          class="brand-logo">
-    <span>CAK Enterprise</span>
+    <!-- <span>CAK Enterprise</span> -->
   </a>
   <nav class="links">
     <a href="#work">Work</a>
@@ -636,35 +665,75 @@
       <div>
         <h3>Company details</h3>
         <div class="ledger">
-          <div class="ledger-row"><span class="k">Company name</span><span class="v">CAK Enterprise Private Limited</span></div>
-          <div class="ledger-row"><span class="k">CIN / Registration no.</span><span class="v">U91030TS2025PTC197744</span></div>
-          <div class="ledger-row"><span class="k">GSTIN</span><span class="v">36AAMCC6762E1ZG</span></div>
-          <div class="ledger-row"><span class="k">PAN</span><span class="v">AAMCC6762E</span></div>
-          <div class="ledger-row"><span class="k">Registered office</span><span class="v">H. No. 2-392, Chandrapuri Colony, Balaji Nagar, Kapra Mandal, Jawaharnagar Village, Medchal–Malkajgiri District, Telangana – 500087</span></div>
+          <div class="ledger-row">
+            <span class="k">Company name</span>
+            <span class="v">CAK Enterprise Private Limited</span>
+          </div>
+
+          <div class="ledger-row">
+            <span class="k">CIN / Registration no.</span>
+            <span class="v">U91030TS2025PTC197744</span>
+          </div>
+
+          <div class="ledger-row">
+            <span class="k">GSTIN</span>
+            <span class="v">36AAMCC6762E1ZG</span>
+          </div>
+
+          <div class="ledger-row">
+            <span class="k">PAN</span>
+            <span class="v">AAMCC6762E</span>
+          </div>
+
+          <div class="ledger-row">
+            <span class="k">Registered office</span>
+            <span class="v">
+              H. No. 2-392, Chandrapuri Colony, Balaji Nagar, Kapra Mandal,
+              Jawaharnagar Village, Medchal–Malkajgiri District,
+              Telangana – 500087
+            </span>
+          </div>
         </div>
       </div>
+
       <div>
         <div class="contact-card">
           <div class="who">Arun Kumar Chirikoti</div>
           <div class="role">Director</div>
-          <div class="contact-line"><a href="tel:+918977151198">+91 89771 51198</a></div>
-          <div class="contact-line"><a href="mailto:arun@cakenterprise.in">arun@cakenterprise.in</a></div>
-          <div class="contact-line"><span style="opacity:.55;">Authorised signatory</span>&nbsp;<a href="mailto:cakpvtltd@gmail.com">cakpvtltd@gmail.com</a></div>
+
+          <div class="contact-line">
+            <a href="tel:+918977151198">+91 89771 51198</a>
+          </div>
+
+          <div class="contact-line">
+            <a href="mailto:arun@cakenterprise.in">
+              arun@cakenterprise.in
+            </a>
+          </div>
+
+          <div class="contact-line">
+            <span style="opacity:.55;">Authorised signatory</span>
+            &nbsp;
+            <a href="mailto:cakpvtltd@gmail.com">
+              cakpvtltd@gmail.com
+            </a>
+          </div>
         </div>
       </div>
     </div>
-    <!-- <div class="service-tags">
-      <span>CSR</span><span>Environment</span><span>Plantation</span><span>Sustainability</span>
-      <span>Water &amp; RO Solutions</span><span>WASH</span><span>Menstrual Health</span>
-      <span>Healthcare &amp; Medical Equipment</span><span>Government Hospital Support</span>
-      <span>EV Mobility Solutions</span><span>Ambulance Supply</span><span>Rural Development</span>
-      <span>STEM Education</span><span>School Development</span><span>Civil Works</span>
-      <span>Construction</span><span>Infrastructure</span><span>Community Development</span><span>Material Supply</span>
-    </div> -->
+
     <div class="foot-base">
       <span>© 2026 CAK Enterprise Private Limited. All rights reserved.</span>
       <span class="tagline">Engineering Sustainable Solutions</span>
     </div>
+  </div>
+
+  <!-- SDG IMAGE -->
+  <div class="footer-sdg-image">
+    <img
+      src="assets/sdg.png"
+      alt="The 17 UN Sustainable Development Goals"
+    />
   </div>
 </footer>
 
